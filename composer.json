@@ -1,8 +1,8 @@
 {
-    "name": "youyi/beyong-markdown",
+    "name": "youyiio/beyong-markdown",
     "description": "PHP markdown parse, base on parsedown.",
     "keywords": [
-        "beyong", "markdown", "parser"
+        "beyong", "beyongx", "markdown", "parser"
     ],
     "homepage": "https://www.beyongx.com",
     "type": "library",
@@ -24,8 +24,8 @@
     "autoload": {
         "psr-0": {"Parsedown": ""},
         "psr-4": {
-            "beyong\\": "src/"
-        },
+            "beyong\\": "src/beyong"
+        }
     },
     "autoload-dev": {
         "psr-0": {

@@ -1,12 +1,6 @@
 <?php
-namespace app\common\library;
-/**
- * Author: Taufik Nurrohman
- * URL: https://github.com/tovic
- * Version: 1.1.6
- */
+namespace beyong\markdown;
 
-// <https://github.com/tovic/parsedown-extra-plugin>
 use ParsedownExtra;
 class ParsedownExtraPlugin extends ParsedownExtra {
 
