@@ -1,7 +1,7 @@
 <?php
 namespace beyong\markdown;
 
-use ParsedownExtra;
+
 class ParsedownExtraPlugin extends ParsedownExtra {
 
     // version

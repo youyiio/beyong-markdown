@@ -1,5 +1,5 @@
 <?php
-
+namespace beyong\markdown;
 #
 #
 # Parsedown
