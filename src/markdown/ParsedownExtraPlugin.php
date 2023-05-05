@@ -1,6 +1,7 @@
 <?php
 namespace beyong\markdown;
 
+use Exception;
 
 class ParsedownExtraPlugin extends ParsedownExtra {
 

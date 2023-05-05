@@ -1,4 +1,4 @@
-Extension for [Parsedown Extra](https://github.com/erusev/parsedown-extra)
+Extension for PHP markdown parse, base on parsedown. (https://github.com/youyiio/beyong-markdown)
 ==========================================================================
 
 > Configurable Markdown to HTML converter with Parsedown Extra.
@@ -32,12 +32,15 @@ Table of Content
 Installation
 ------------
 
-Include `ParsedownExtraPlugin.php` just after the `Parsedown.php` and `ParsedownExtra.php`:
+```
+composer require youyiio/beyong-markdown:^1.0
+```
+
+usage
 
 ~~~ .php
-require 'Parsedown.php';
-require 'ParsedownExtra.php';
-require 'ParsedownExtraPlugin.php';
+use beyong\markdown\ParsedownExtraPlugin;
+use beyong\markdown\ParsedownExtra;
 
 $parser = new ParsedownExtraPlugin();
 

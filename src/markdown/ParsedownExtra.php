@@ -13,6 +13,10 @@ namespace beyong\markdown;
 #
 #
 
+use Exception;
+use DOMDocument;
+use DOMElement;
+
 class ParsedownExtra extends Parsedown
 {
     # ~
